@@ -42,7 +42,7 @@
 		</dict>
 	</dict>
 	<key>Update Manifest URL</key>
-	<string>http://github.com/mrkolby/Dagbladet-Nice/blob/master/versions.plist</string>
+	<string>http://github.com/mrkolby/Dagbladet-Nice/raw/master/versions.plist</string>
 	<key>Website</key>
 	<string>http://oddwave.com/dagbladetnice/</string>
 </dict>
