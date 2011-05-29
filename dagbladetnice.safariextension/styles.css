@@ -1,0 +1,286 @@
+/*
+** Dagbladet Nice!
+** av @mrkolby
+**
+** Versjon 1.3
+*/
+
+/*
+** Vi fjerner de elementene som vi ikke vil ha
+*/
+
+#menu .loft,
+.front-rss,
+#menu .rss,
+#menu .menu-title,
+
+/*
+** Toppannonsene
+*/
+
+#header,
+#ad-top,
+
+/*
+** 
+*/
+
+.grid-ga .centerAd,
+.centerAd,
+
+/*
+** 
+*/
+
+#solBox,
+
+/*
+** Skattesøket
+*/
+
+.l-color-tax,
+.skattesok2009,
+.skattesok,
+
+/*
+** Delingsfunksjonene til artikler
+*/
+
+.article-tools,
+
+/*
+** Tekstzoom til artikler
+*/
+
+.text-zoom,
+
+/*
+** Toppen og bunnen til disse rare blåboksene
+*/
+
+.l-blue-s .xbottom,
+.l-blue-s .xtop,
+
+/*
+** 
+*/
+
+.ddBox.geodata.module-box,
+.tagBox,
+
+/*
+** 
+*/
+
+#dzGroup .ad {
+	display: none !important;
+}
+
+/*
+** Men viser gjerne de vi vil ha
+** Viser delingsfunksjonene og tekstzoom under artikler
+*/
+
+#article-text .article-tools,
+#article-text .text-zoom {
+	display: inline !important;
+}
+
+/*
+**
+*/
+
+#menuwrapper {
+	border-bottom: 6px #d60000 solid !important;
+	background: none;
+	padding-bottom: 5px;
+}
+
+/*
+** Det nye designet var ofte venstrestilt, la oss fikse det.
+** Beholder dette i tilfelle de skulle finne på å venstrestille mer.
+*/
+
+div#doc.adjust-left,
+#menuwrapper.adjust-left .db-search-10,
+#menuwrapper.adjust-left div#menu {
+	margin: 0 auto !important;
+}
+
+.mod-100 .ref {
+	padding-top: 1px;
+	border-top: none !important;
+}
+
+/*
+** Toppdelen av menyen får en bedre kontrast til resten av innholdet med en svart bakgrunnsfarge
+*/
+
+.upper {
+	background: #000 !important;
+	-webkit-border-top-left-radius: 5px !important;
+	-webkit-border-top-right-radius: 5px !important;
+}
+
+/*
+** Dermed må linkene være hvite, med en litt mindre skriftstørrelse
+*/
+
+.upper a {
+	color: #fff !important;
+	font-size: 13px;
+}
+
+/*
+** Underdelen av menyen kan ikke være noe dårligere.
+** Derfor gir vi den en annen gråfarge til bakgrunn, med en under border-bottom.
+*/
+
+.lower {
+	background: #f5f5f5 !important;
+	border-bottom: 1px #ddd solid;
+	line-height: 10px;
+	padding: 0 2px !important;
+	width: 992px !important;
+}
+
+/*
+** Dermed må linkene i undermenyen bli mørkere. Of course my hourse.
+*/
+
+.lower a {
+	color: #333 !important;
+}
+
+/*
+** Siden undermenyen har blitt lysegrå, så vi ha en ny, svart pil.
+** Pilulf var et ganske morsomt navn. Jeg fniste.
+*/
+
+.nav.lower a:hover {
+	background: transparent url(images/pilulf.gif) no-repeat center top !important;
+}
+
+.db-logo,
+.db-logo-small,
+.db-search-10,
+.userlinks {
+	margin: 0 5px !important;
+}
+
+/*
+** Extra! Extra! Plagsomt! Plagsomt!
+** Ro ned med det svarte, la oss heller bruke en grå bakgrunn.
+*/
+
+.extraTitle {
+	background: #fff !important;
+	color: #000 !important;
+}
+
+/*
+** Men så må vi la de svarte nyhetsboksene ha en svart og hvit tittel.
+*/
+
+.black .extraTitle {
+	background: #000 !important;
+}
+
+.back.black,
+.back.gray,
+.back.red,
+.back.lightblue,
+.back.blue,
+.back.green,
+.back.yellow,
+.back.pink {
+	background: #fff !important;
+}
+
+.back.black,
+.back.yellow,
+.back.red,
+.back.pink,
+.back.lightblue,
+.back.gray,
+.back.blue,
+
+/*
+** Ikke glem linkene.
+*/
+
+.back.black a
+.back.yellow a,
+.back.red a,
+.back.pink a,
+.back.lightblue a,
+.back.gray a,
+.back.blue a,
+
+/*
+** Overskriftene.
+*/
+
+.back.black h2 a,
+.back.yellow h2 a,
+.back.red h2 a,
+.back.pink h2 a,
+.back.lightblue h2 a,
+.back.gray h2 a,
+.back.blue h2 a,
+
+/*
+** Glem ikke listelinkene heller.
+*/
+
+a.subLink {
+	color: #000 !important;
+}
+
+.back a.mainUrl {
+	color: blue;
+}
+
+/*
+** Relaterte artikler på forsiden trenger litt luft over seg.
+*/
+
+.horisontal-lf {
+	margin-top: 10px !important;
+}
+
+/*
+** Understrekene på disse linkene er faktisk litt plagsomme.
+*/
+
+.horisontal-lf a {
+	text-decoration: none;
+}
+
+/*
+** Disse blå boksene med blant annet relaterte artikler er ganske fugly.
+** Derfor fikser vi litt på utseende.
+*/
+
+.l-blue-s {
+	background: none !important;
+	padding: 10px 0 !important;
+	border-top: 1px #cbcbcb solid !important;
+	border-bottom: 1px #cbcbcb solid !important;
+}
+
+.l-blue-s ul {
+	margin: 0 0 0 8px !important;
+}
+
+.l-blue-s ul li {
+	list-style-type: square !important;
+	margin-bottom: 5px !important;
+}
+
+/*
+** Dem er gnukke, dem er gnukkinger
+** Dem er gnukke, dem er gnukkinger
+** Dem er en gjerrig smålig gjeng
+** Alt, alt for gnukk
+*/
