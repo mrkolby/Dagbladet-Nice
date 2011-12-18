@@ -1,0 +1,373 @@
+/* @group reset */
+
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+	text-decoration: none;
+	border: none;
+	list-style: none;
+	outline: none;
+}
+
+/* @end */
+
+body {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	font-size: 14px;
+	line-height: 25px;
+	color: #222;
+	background: #fff;
+	border-top: 1px #fff solid;
+}
+
+body#home {
+	background: url(images/welcome.png) no-repeat center top, #fff url(images/body.png) repeat-x 0 0;
+}
+
+header,
+section,
+nav,
+footer {
+	display: block;
+}
+
+a {
+	color: #939;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+a:hover,
+a:focus {
+	color: #c93219;
+}
+
+a:active {
+	position: relative;
+	top: 1px;
+	color: #303;
+}
+
+em,
+h2 {
+	color: #000;
+}
+
+strong {
+	font-weight: 600;
+}
+
+h2 {
+	font-weight: normal;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+h2 strong {
+	color: #333;
+}
+
+cite {
+	font-style: normal;
+}
+
+blockquote {
+	font-family: Georgia, serif;
+	font-style: italic;
+	font-size: 13px;
+	margin-bottom: 10px;
+}
+
+blockquote p:first-child:before {
+	content: "“";
+}
+
+blockquote p:last-child:after {
+	content: "”";
+}
+
+blockquote a {
+	font-weight: normal;
+}
+
+#welcome,
+#content,
+footer {
+	width: 850px;
+	margin: 0 auto;
+	padding: 0 50px;
+}
+
+header#welcome {
+	height: 204px;
+	padding: 175px 500px 0 0;
+	width: 350px;
+	position: relative;
+}
+
+header#welcome a {
+	color: #fff;
+	text-decoration: none;
+}
+
+header#welcome h1 {
+	position: absolute;
+	top: 170px;
+	font-size: 44px;
+	line-height: 42px;
+}
+
+header#welcome h1 a {
+	color: #333;
+	font-weight: 100;
+	text-shadow: #fff 0 2px 0;
+}
+
+header#welcome h1 a:hover,
+header#welcome h1 a:focus {
+	opacity: .75;
+}
+
+header#welcome h1 a:active {
+	opacity: 1;
+}
+
+header#welcome p {
+	color: #555;
+	font-size: 32px;
+	line-height: 35px;
+	margin-bottom: 30px;
+	font-weight: 500;
+	text-shadow: #fff 0 2px 0;
+}
+
+header#welcome ul li {
+	float: left;
+	line-height: 20px;
+	margin-left: -5px;
+}
+
+header#welcome ul li a {
+	width: 160px;
+	padding-left: 70px;
+	padding-top: 12px;
+	float: left;
+	height: 48px;
+	background: url(images/download.png) no-repeat 0 0;
+	font-size: 13px;
+	font-weight: normal;
+}
+
+header#welcome ul li a:hover,
+header#welcome ul li a:focus {
+	opacity: .75;
+}
+
+header#welcome ul li a:active {
+	opacity: 1;
+}
+
+header#welcome ul li a strong {
+	font-size: 18px;
+	display: block;
+}
+
+#content {
+	padding-top: 30px;
+}
+
+#support #content {
+	padding-top: 20px;
+}
+
+#main {
+	float: left;
+	width: 550px;
+	padding-bottom: 15px;
+}
+
+#intro {
+	font-size: 21px;
+	font-weight: 700;
+	line-height: 27px;
+	margin-bottom: 30px;
+}
+
+#sidebar {
+	float: right;
+	width: 250px;
+	padding-bottom: 20px;
+}
+
+#sidebar h2 {
+	border-top: 1px solid #ddd;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+
+#sidebar h3 {
+	margin-top: 10px;
+}
+
+#sidebar h3 small {
+	float: right;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 11px;
+}
+
+#sidebar ul li {
+	margin-left: 25px;
+	list-style: disc;
+}
+
+#team {
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+
+#team li {
+	margin: 0 0 15px 0 !important;
+	list-style: none !important;
+	line-height: 20px;
+}
+
+#team li a {
+	font-weight: normal;
+	color: #333;
+	text-decoration: none;
+	display: block;
+}
+
+#team li a strong {
+	display: block;
+}
+
+footer {
+	clear: both;
+	border-top: 1px solid #ddd;
+	padding: 30px 0;
+	text-align: right;
+}
+
+footer p:first-child {
+	float: left;
+}
+
+#features {
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+#features li {
+	float: left;
+	margin-right: 50px;
+	width: 250px;
+	padding-bottom: 30px;
+	font-size: 15px;
+}
+
+#features li:nth-child(2n) {
+	margin-right: 0;
+}
+
+#download {
+	margin-top: 80px;
+}
+
+#download a {
+	display: block;
+	width: 240px;
+	font-size: 20px;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 0 1px 1px #333;
+	letter-spacing: 1px;
+	line-height: 42px;
+	padding: 1px 10px 0 60px;
+	background: #909 url(images/download) no-repeat 15px center;
+	background: url(images/download) no-repeat 15px center, -webkit-gradient(linear, 0% 0%, 0% 100%, from(#c93219), to(#90220e));
+	background: url(images/download) no-repeat 15px center, -moz-linear-gradient(top, #c93219, #90220e);
+	background: url(images/download) no-repeat 15px center, -o-linear-gradient(top, #c93219, #90220e);
+	background: url(images/download) no-repeat 15px center, linear-gradient(top, #c93219, #90220e);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: rgba(0, 0, 0, .5) 0 1px 3px;
+	-moz-box-shadow: rgba(0, 0, 0, .5) 0 1px 3px;
+	-o-box-shadow: rgba(0, 0, 0, .5) 0 1px 3px;
+	box-shadow: rgba(0, 0, 0, .5) 0 1px 3px;
+}
+
+#download a:hover,
+#download a:focus {
+	background: #606 no-repeat 0 0;
+	background: url(images/download) no-repeat 15px center, -webkit-gradient(linear, 0% 0%, 0% 100%, from(#c93219), to(#a72912));
+	background: url(images/download) no-repeat 15px center, -moz-linear-gradient(top, #c93219, #a72912);
+	background: url(images/download) no-repeat 15px center, -o-linear-gradient(top, #c93219, #a72912);
+	background: url(images/download) no-repeat 15px center, linear-gradient(top, #c93219, #a72912);
+}
+
+#download a:active {
+	-webkit-box-shadow: 0 1px 3px #000 inset;
+	-moz-box-shadow: 0 1px 3px #000 inset;
+	-o-box-shadow: 0 1px 3px #000 inset;
+	box-shadow: 0 1px 3px #000 inset;
+	background: #303 no-repeat 0 0;
+	background: url(images/download) no-repeat 15px center, -webkit-gradient(linear, 0% 0%, 0% 100%, from(#a72912), to(#c93219));
+	background: url(images/download) no-repeat 15px center, -moz-linear-gradient(top, #a72912, #c93219);
+	background: url(images/download) no-repeat 15px center, -o-linear-gradient(top, #a72912, #c93219);
+	background: url(images/download) no-repeat 15px center, linear-gradient(top, #a72912, #c93219);
+}
+
+#compare {
+	padding: 30px 0 30px 0;
+	margin-bottom: 30px;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+
+#compare .balinks {
+	display: none;
+}
+
+/*
+.typekit-badge {
+	display: none !important;
+}
+*/
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
+
+/*
+
+Hun er vakker som en engel
+tynn som en stengel
+hun minner om prinsessen på erten
+hun sier jeg er skitten
+og hun mister appetitten
+
+*/

@@ -1,18 +1,180 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="no" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<meta charset="utf-8">
 	<title>Dagbladet Nice!</title>
 	
-	<!--[if lt IE 9]>
-	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-</head>
-<body>
+	<!-- Nysgjerrigper? -->
 
-	<h1>Dagbladet Nice!</h1>
+	<meta charset="utf-8" />
+	<meta name="keywords" content="dagbladet, nice, avis, reklame, safari, chrome, firefox, plugin, extension" />
+	<meta name="description" content="Et tillegg til nettleseren som gjør Dagbladet.no renere og penere." />
+
+	<link type="text/css" href="styles.css" rel="stylesheet" />
 	
-	<p><a href="https://raw.github.com/mrkolby/Dagbladet-Nice/master/dagbladetnice.safariextz">Download</a></p>
+	<!-- Vi har med typekit fordi det er totalt unødvendig -->
+	<script type="text/javascript" src="http://use.typekit.com/lmp4akv.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.1/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/jquery.beforeafter.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+	<script type="text/javascript">$(function(){$("#slideshow").beforeAfter({imagePath:"images/"});});</script>
 	
+</head>
+  
+<body id="home">
+	<header id="welcome">
+		<h1>
+			<a href="http://oddwave.com/dagbladetnice/"><strong>Dagbladet</strong>Nice!</a>
+		</h1>
+		<!--<p>En forbedret utgave av nye Dagbladet.no uten ekstra besvær.</p>-->
+		<p id="download"></p>
+	</header>
+
+	<section id="content" class="clearfix">
+		<section id="main">
+			<p id="intro">Dagbladet Nice! er en utvidelse av nettleseren som fjerner skrikende toppannonser og andre unødvendigheter som ikke burde være i en avis.</p>
+			<ul id="features">
+				<li>
+					<img src="images/ikkenice4.jpg" alt="Ikke nice" />
+					<h2>Aldri mer toppbannere</h2>			
+					<p><strong>Dagbladet Nice!</strong> ble først og fremst laget for å fjerne de skrekkelige annonsene som tar 80% av skjermen. No more bleier.</p>
+				</li>
+				<li>
+					<img src="images/ikkenice1.jpg" alt="Ikke nice" />
+					<h2>Avis for nyheter</h2>			
+					<p>Det er irriterende å sjekke avisen for nyheter, for så å bli presentert med skattelistesøk. Med <strong>Dagbladet Nice!</strong> slipper du dette, og mer.</p>
+				</li>
+				<li>
+					<img src="images/ikkenice3.jpg" alt="Ikke nice" />
+					<h2>Fokus på innhold</h2>
+					<p>Noe alvorlig har skjedd ved Hjelle i Gudbrandsdalen, og du bryr deg lite om været på Dovre. <strong>Dagbladet Nice!</strong> fjerner unødvendige bokser og gir artikkelteksten mer bredde.</p>
+				</li>
+				<li>
+					<img src="images/ikkenice2.jpg" alt="Ikke nice" />
+					<h2>En penere meny</h2>
+					<p>Men <strong>Dagbladet Nice!</strong> er mer enn en vanlig AdBlock. Du får også en navigasjonsmeny som er penere, bedre og snillere med mindre tull.</p>
+				</li>
+			</ul>
+
+			<h2>Se forskjellen med <strong>Nice!</strong></h2>
+		
+			<div id="compare">
+				<div id="slideshow">
+					<div><img src="images/dagbladet-uten.jpg" width="550" height="288" alt="Dagbladet Nice!" /></div>
+					<div><img src="images/dagbladet-med.jpg" width="550" height="288" alt="Dagbladet Nice!" /></div>
+				</div>
+			</div>
+
+			<h2>Hva folk har sagt om <strong>Dagbladet Nice!</strong></h2>
+		
+			<p><cite><a href="http://twitter.com/lunken/status/22777121493">Kenneth</a></cite></p>
+			<blockquote>
+				<p>Retter en takk til @mrkolby som var raskt ute og reparerte nye #Dagbladet!</p>
+			</blockquote>
+
+			<p><cite><a href="http://twitter.com/Schpaux/status/22700043813">André Buseth Wigum</a></cite></p>
+			<blockquote>
+				<p>Tusen takk til @mrkolby for Dagbladet Nice! Deilig å surfe #Dagbladet og faktisk kunne se innholdet uten rosa hypnoseadd! #Dagbladetfail</p>
+			</blockquote>
+
+			<p><cite><a href="http://twitter.com/matsi/status/22703595200">Mats A. Kristiansen</a></cite></p>
+			<blockquote>
+				<p>Anbefaler @mrkolby sin "Dagbladet Nice!"-extension til Safari. Gjør nye Dagbladet.no brukbart.</p>
+			</blockquote>
+
+			<p><cite><a href="http://twitter.com/johneivind/status/22704904968">John Eivind Hallén</a></cite></p>
+			<blockquote>
+				<p>@mrkolby har fjernet/endret elementer, noe som faktisk gjør den penere og mer funksjonell enn DBs eget design</p>
+			</blockquote>
+
+			<p><cite><a href="http://twitter.com/moppedanne/status/22709564454">Daniel Andersson</a></cite></p>
+			<blockquote>
+				<p>mer enn najs: supernajs</p>
+			</blockquote>
+
+			<p><cite><a href="http://twitter.com/snorrebryne/status/22708459302">Snorre Bryne</a></cite></p>
+			<blockquote>
+				<p>Takk skarru faen meg ha ;)</p>
+			</blockquote>
+
+		</section>
+	  
+		<section id="sidebar">
+			<p>Dersom du vil bruke kildefilen bak <strong>Dagbladet Nice!</strong> til egne prosjekter er det ingen som kan stoppe deg. Men vennligst link tilbake til denne siden.</p>
+			
+			<p><strong>Last ned</strong> <a href="https://raw.github.com/mrkolby/Dagbladet-Nice/master/dagbladetnice.safariextension/styles.css"><strong>dagbladetnice.css</strong></a></p>
+			<h2>Last ned hver enkelt</h2>
+			<ul>
+				<li><a href="https://raw.github.com/mrkolby/Dagbladet-Nice/master/dagbladetnice.safariextz">Safari Extension</a></li>
+				<li><a href="download/dagbladetnice.xpi">Firefox Add-on</a></li>
+				<li><a href="download/dagbladetnice.crx">Chrome Extension</a></li>
+			</ul>
+			<h2>Spre <strong>Dagbladet Nice!</strong></h2>
+			<a href="http://twitter.com/share" class="twitter-share-button" data-url="http://oddwave.com/dagbladetnice/" data-count="none" data-via="mrkolby">Del på Twitter</a>
+			
+			<br />
+			
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Foddwave.com%2Fdagbladetnice%2F&amp;layout=button_count&amp;show_faces=true&amp;width=240&amp;action=like&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:240px; height:21px;" allowTransparency="true"></iframe>
+			
+			<h2>Bidragsytere</h2>
+			<ul id="team">
+				<li>
+					<a href="http://twitter.com/mrkolby">
+						<strong>Magnus Kolstad</strong>
+						Initiativtaker og hovedutvikler
+					</a>
+				</li>
+				<li>
+					<a href="http://twitter.com/arne">
+						<strong>Arne Fismen</strong>
+						Flisespikker og bedreviter
+					</a>
+				</li>
+				<li>
+					<a href="http://twitter.com/matsbs">
+						<strong>Mats Staugaard</strong>
+						Bedreviter og flisespikker
+					</a>
+				</li>
+				<li>
+					<a href="http://twitter.com/steingrd">
+						<strong>Steingrim Dovland</strong>
+						Chrome Extension
+					</a>
+				</li>
+				<li>
+					<a href="http://twitter.com/neu242">
+						<strong>Henrik Penrik</strong>
+						Firefox Add-on
+					</a>
+				</li>
+			</ul>
+			
+			<h2>Ikke en AdBlocker</h2>
+			<p><em>Målet med <strong>Dagbladet Nice!</strong> er ikke å fjerne flest mulig annonser på Dagbladet.no, til det kan man benytte myriader av annonseblokkere og andre løsninger. Med denne utvidelsen til din nettleser ønskes det å gjøre lesingen av et av landets største aviser til en bedre opplevelse uten unødvendige, forstyrrende elementer. Det legges mer fokus på innholdet, og en navigasjonsmeny som ikke skriker mer enn bleieannonser fra Rema 1000.</em></p>
+	  	</section>
+	</section>
+
+	<footer>
+		<p>Dette er <strong>Dagbladet Nice!</strong>, kanskje vil du prøve <a href="/embnrk">embNRK</a>?</p>
+		<p>Følg <a href="http://twitter.com/mrkolby">@mrkolby</a> på Twitter for de siste oppdateringene.</p>
+	</footer>
+	
+	<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+	<script type='text/javascript'>
+		//<![CDATA[
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-210106-8']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+		//]]>
+	</script>
+
 </body>
 </html>
