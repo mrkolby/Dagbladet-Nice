@@ -2,7 +2,7 @@
 ** Dagbladet Nice!
 ** av @mrkolby
 **
-** Versjon 1.3
+** Versjon 1.4
 */
 
 /*
@@ -13,6 +13,7 @@
 .front-rss,
 #menu .rss,
 #menu .menu-title,
+.arets_badge,
 
 /*
 ** Toppannonsene
@@ -20,18 +21,6 @@
 
 #header,
 #ad-top,
-
-/*
-** Teite skrytebadget
-*/
-
-.arets_bage_front,
-
-/*
-** Store annonsen midt i artikkelen
-*/
-
-#article-text .dbAd,
 
 /*
 ** 
@@ -74,6 +63,19 @@
 .l-blue-s .xtop,
 
 /*
+** Facebook på forsiden.
+*/
+
+#row-18959063,
+#menu iframe,
+
+/*
+** TV-Guide i en footer?
+*/
+
+#tvguide,
+
+/*
 ** 
 */
 
@@ -84,8 +86,48 @@
 ** 
 */
 
-#dzGroup .ad {
+#dzGroup .ad,
+#article-text .dbAd {
 	display: none !important;
+}
+
+/*
+** Font-størrelser.
+*/
+
+h2.size-32,
+h2.size-30 {
+	font-size: 60px !important;
+}
+
+/*
+** Fjern lufta på toppen av øverste extranyheter.
+*/
+.ref.black.back.extra,
+.ref.extra {
+	margin-top: 0 !important;
+	background: #fff !important;
+	padding: 0 0 20px 0 !important;
+}
+
+.ref.black.back.extra a,
+.ref.black.back.extra span {
+	color: #000 !important;
+}
+
+.ref.black.back.extra .extraTitle {
+	background: #000 !important;
+	color: #fff !important;
+	padding: 5px 0 !important;
+	border-radius: 0 !important;
+}
+
+/*
+** Og da må vi gi litt luft for å få tilbake hvitt til toppen av siden.
+*/
+.web #doc,
+.web #doc.adjust-left {
+	padding-top: 10px !important;
 }
 
 /*
@@ -104,8 +146,6 @@
 
 #menuwrapper {
 	border-bottom: 6px #d60000 solid !important;
-	background: none;
-	padding-bottom: 5px;
 }
 
 /*
@@ -178,75 +218,6 @@ div#doc.adjust-left,
 .db-search-10,
 .userlinks {
 	margin: 0 5px !important;
-}
-
-/*
-** Extra! Extra! Plagsomt! Plagsomt!
-** Ro ned med det svarte, la oss heller bruke en grå bakgrunn.
-*/
-
-.extraTitle {
-	background: #fff !important;
-	color: #000 !important;
-}
-
-/*
-** Men så må vi la de svarte nyhetsboksene ha en svart og hvit tittel.
-*/
-
-.black .extraTitle {
-	background: #000 !important;
-}
-
-.back.black,
-.back.gray,
-.back.red,
-.back.lightblue,
-.back.blue,
-.back.green,
-.back.yellow,
-.back.pink {
-	background: #fff !important;
-}
-
-.back.black,
-.back.yellow,
-.back.red,
-.back.pink,
-.back.lightblue,
-.back.gray,
-.back.blue,
-
-/*
-** Ikke glem linkene.
-*/
-
-.back.black a
-.back.yellow a,
-.back.red a,
-.back.pink a,
-.back.lightblue a,
-.back.gray a,
-.back.blue a,
-
-/*
-** Overskriftene.
-*/
-
-.back.black h2 a,
-.back.yellow h2 a,
-.back.red h2 a,
-.back.pink h2 a,
-.back.lightblue h2 a,
-.back.gray h2 a,
-.back.blue h2 a,
-
-/*
-** Glem ikke listelinkene heller.
-*/
-
-a.subLink {
-	color: #000 !important;
 }
 
 .back a.mainUrl {
